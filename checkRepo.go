@@ -9,7 +9,7 @@ import (
 func main() {
 
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: checkRepo <repoName>")
+		fmt.Println("Usage: checkRepo <owner>/<repoName>")
 		os.Exit(2)
 	}
 	repoName := os.Args[1]
